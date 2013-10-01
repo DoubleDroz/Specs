@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
   s.source   = { :git => 'https://github.com/soundcloud/CocoaSoundCloudUI.git', :tag => 'v1.0.7' }
 
-  s.platform = :ios
+  s.platform = :osx
 
   s.source_files = 'Sources', 'Sources/**/*.{h,m}'
 
